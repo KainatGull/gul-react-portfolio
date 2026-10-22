@@ -1,0 +1,13 @@
+/* Navigation */
+.site-nav { width: min(1240px, calc(100% - 72px)); margin: 0 auto; min-height: 82px; display: flex; align-items: center; justify-content: space-between; gap: 28px; border-bottom: 1px solid var(--border); position: relative; z-index: 20; }
+.wordmark { font-size: 24px; font-weight: 700; letter-spacing: -.09em; }
+.wordmark span { color: var(--accent); }
+.nav-links { display: flex; align-items: center; gap: 28px; }
+.nav-links a, .nav-contact { font-size: 12px; font-weight: 500; transition: color var(--transition); }
+.nav-links a:hover, .nav-contact:hover { color: var(--accent); }
+.nav-actions { display: flex; align-items: center; gap: 16px; }
+.nav-contact { padding-bottom: 5px; border-bottom: 1px solid var(--accent); }
+.nav-contact span { color: var(--accent); }
+.icon-button { display: inline-grid; place-items: center; width: 40px; height: 40px; border: 1px solid var(--border); background: transparent; cursor: pointer; transition: border-color var(--transition), background var(--transition); }
+.icon-button:hover { border-color: var(--accent); }
+.menu-button { display: none; }

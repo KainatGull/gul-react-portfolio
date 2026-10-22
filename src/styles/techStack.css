@@ -1,0 +1,17 @@
+/* Stack Styles */
+.stack-section { padding: 100px 0 115px; border-top: 1px solid var(--border); }
+.stack-stage { min-height: 360px; position: relative; overflow: hidden; border: 1px solid var(--border); background: var(--surface); }
+.stack-crosshair { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: 140px; color: var(--accent); opacity: .13; }
+.skill-pointer { position: absolute; display: flex; align-items: center; gap: 8px; padding: 10px 12px; background: var(--surface-strong); border: 1px solid var(--border); box-shadow: 0 8px 22px rgba(0,0,0,.04); cursor: pointer; text-align: left; transition: border-color var(--transition); }
+.skill-pointer:hover, .skill-pointer:focus-visible { border-color: var(--accent); }
+.skill-pointer span:nth-child(2) { font-size: 12px; font-weight: 600; white-space: nowrap; }
+.skill-pointer small { color: var(--muted); font: 9px "DM Mono", monospace; }
+.pointer-dot { width: 7px; height: 7px; flex: 0 0 7px; background: var(--accent); border-radius: 50%; }
+.skill-0 { top: 13%; left: 7%; }
+.skill-1 { top: 28%; left: 38%; }
+.skill-2 { top: 17%; right: 7%; }
+.skill-3 { top: 53%; left: 15%; }
+.skill-4 { top: 68%; left: 43%; }
+.skill-5 { top: 48%; right: 8%; }
+.skill-pointer:nth-of-type(n+8) { display: none; }
+.stack-footnote { text-align: right; margin-top: 12px; font: 9px "DM Mono", monospace; color: var(--muted); letter-spacing: .08em; }

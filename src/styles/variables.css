@@ -1,0 +1,27 @@
+/* Theme Colors */
+:root {
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light;
+  --bg: #eaeaea;
+  --surface: #f7f7f5;
+  --surface-strong: #ffffff;
+  --text: #111111;
+  --muted: #666666;
+  --border: #cecece;
+  --accent: #e53935;
+  --accent-strong: #cf2926;
+  --shadow: 0 20px 60px rgba(0, 0, 0, 0.09);
+  --transition: 220ms ease;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #151515;
+  --surface: #202020;
+  --surface-strong: #292929;
+  --text: #f5f5f5;
+  --muted: #b7b7b7;
+  --border: #3b3b3b;
+  --accent: #ff4545;
+  --accent-strong: #ff5a5a;
+  --shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}

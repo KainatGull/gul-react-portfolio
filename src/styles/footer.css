@@ -1,0 +1,11 @@
+/* Footer Styles */
+.connect-section { padding: 90px 0 60px; border-top: 1px solid var(--border); }
+.connect-section > .eyebrow { margin-bottom: 26px; }
+.connect-title { display: block; position: relative; width: fit-content; font-size: clamp(70px, 15vw, 190px); line-height: .78; letter-spacing: -.11em; font-weight: 700; }
+.connect-title span { color: var(--accent); }
+.connect-arrow { position: absolute; width: clamp(30px, 5vw, 70px); height: clamp(30px, 5vw, 70px); right: -70px; top: 8px; color: var(--accent); }
+.connect-links { display: flex; gap: 24px; flex-wrap: wrap; margin-top: 48px; }
+.connect-links a { display: inline-flex; align-items: center; gap: 8px; font-size: 12px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+.connect-links a:hover { border-color: var(--accent); color: var(--accent); }
+.site-footer { width: min(1240px, calc(100% - 72px)); margin: 0 auto; padding: 20px 0 28px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; gap: 20px; color: var(--muted); font: 9px "DM Mono", monospace; }
+.site-footer a { color: var(--text); }
